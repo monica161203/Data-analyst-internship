@@ -1,15 +1,15 @@
-# 🧾 Intelligent Text Extraction from Invoices using OCR & AWS Textract
+#  Intelligent Text Extraction from Invoices using OCR & AWS Textract
 
 This project was developed during my **Data Analyst Internship at MindGeniX** (June 4 – July 4, 2025) under the mentorship of **Mr. Vijayakumar Muniyandi**. The objective was to extract structured data—especially tables and key-value fields—from scanned and digital hospital invoices in PDF/image formats using a combination of OCR techniques and cloud-based solutions.
 
-## 🚀 Project Goal
+##  Project Goal
 
 To build a robust and automated pipeline that:
 - Accurately extracts text and tables from scanned/digital documents
 - Handles layout variations across different invoices
 - Converts unstructured text into structured formats like CSV, Excel, or JSON
 
-## 🧪 Tools & Technologies
+##  Tools & Technologies
 
 - **Python 3.10**
 - **EasyOCR** – For initial text extraction trials
@@ -20,7 +20,7 @@ To build a robust and automated pipeline that:
 - **Boto3** – Python SDK for AWS
 - **Pandas** – Data structuring and export
 
-## 🔁 Workflow Overview
+##  Workflow Overview
 
 1. **EasyOCR**:
    - Performed basic OCR on PDFs/images
@@ -37,13 +37,13 @@ To build a robust and automated pipeline that:
    - Parsed responses and stored in structured formats
 
 
-## ✅ Results
+##  Results
 
 - AWS Textract provided the **most accurate** and **structured extraction**, especially for scanned documents
 - Clean conversion of key-value data and tables to **CSV, Excel, and JSON**
 - Developed a reusable Python workflow for document processing
 
-## 📈 Key Learnings
+##  Key Learnings
 
 - Every OCR tool has strengths and limitations depending on the document type
 - Table extraction is far more complex than plain text OCR
